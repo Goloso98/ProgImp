@@ -1,0 +1,3 @@
+>5
+
+Imprime o numero 5 porque dentro do ciclo 'while' nao imprime nada so no fim. como tal 4*4<25 e soma 1, mas 5*5 nao é < 25 logo sai fora e imprime "i".

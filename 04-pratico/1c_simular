@@ -1,0 +1,6 @@
+>4
+>8
+>3
+>9
+
+Imprime os digitos por ordem, unidade dezenas centenas ... , que sao o resto da divisao por 10, depois divide por 10 para remover esse digito da variavel e voltar a repetir.
