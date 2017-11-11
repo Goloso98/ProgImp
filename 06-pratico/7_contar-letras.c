@@ -4,21 +4,6 @@
 
 #define N 100
 
-/*void TudoMaiuscula(char str[],int size)
-{
-  //str[0] = "g";
-  for (int i = 0; i < size; ++i)
-    str[i] = toupper(str[i]);
-
-  char c;
-  for (int i = 0; i < size; ++i)
-  {
-    c = str[i];
-    c = toupper(c);
-    str[i] = c;
-  }
-}*/
-
 void ContarLetras(char str[], int size)
 {
   int Alpha_contador[26];
@@ -48,15 +33,6 @@ void ContarLetras(char str[], int size)
   }
   printf("\n");
 }
-
-/*int main(int argc, char const *argv[])
-{
-  char * var = "olaa";
-  printf("%ld\n", strlen(var));
-  TudoMaiuscula(var, strlen(var));
-  printf("%c\n", var[0]);
-  return 0;
-}*/
 
 int main(void)
 {
