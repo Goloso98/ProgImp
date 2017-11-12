@@ -36,7 +36,6 @@ void ContarLetras(char str[], int size)
 
 int main(void)
 {
-  /* tirar comentario para exprimentar
   char texto[N];
   int c = 0;
 
@@ -44,7 +43,6 @@ int main(void)
     c++;
 
   ContarLetras(texto, c-1);
-  */
 
   return 0;
 }
