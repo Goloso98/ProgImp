@@ -41,7 +41,6 @@ void sem_repetidos(int vec[], int vec_size)
 
 int main(void)
 {
-  /* //tirar comentarios para exprimentar
   int vec[] = {1,3,1,1,2,-1,'\0'}; //vetor a tirar os repetidos
   int size = 6; //tamanho do vetor acima
   int n = 0;
@@ -55,6 +54,5 @@ int main(void)
     n++;
   }
   printf("\n");
-  */
   return 0;
 }
