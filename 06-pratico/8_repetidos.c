@@ -1,20 +1,39 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
-{
-    /* code */
-    return 0;
-}
+#define MAX 100
 
 int repetidos(int vec[], int size)
 {
-    for (int i = 0; i < size; ++i)
+  for (int i = 0; i < size; ++i)
+  {
+    for (int ii = i+1; ii < size; ++ii)
     {
-        for (int ii = i+1; ii < size; ++ii)
-        {
-            if (vec[i] == vec[ii])
-                return 1;
-        }
+      if (vec[i] == vec[ii])
+        return 1;
+      }
     }
-    return 0;
+  return 0;
+}
+
+int main(void)
+{
+  int valor_lido[MAX], i = 0;
+  
+  scanf("%d", &valor_lido[i]);
+  while (valor_lido[i] && i < MAX)
+  {
+    i++;
+    scanf("%d", &valor_lido[i]);
+  }
+
+  if(repetidos(valor_lido, i))
+  {
+    printf("Existem valores repetidos.\n");
+  }
+  else
+  {
+    printf("Nao existem valores repetidos.\n");
+  }
+  
+  return 0;
 }
