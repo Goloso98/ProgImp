@@ -19,6 +19,7 @@ int main(void)
 {
   int valor_lido[MAX], i = 0;
   
+  printf("Indique os valores:\n");
   scanf("%d", &valor_lido[i]);
   while (valor_lido[i] && i < MAX)
   {
