@@ -1,0 +1,26 @@
+int a, b, c;
+float x, y;
+
+a)
+  printf("%d%d%d\n", a, b, c);
+
+b)
+  printf("%f;%f\n", x, y);
+
+c)
+  printf("%d,%d\n", a, b);
+
+d)
+  printf("%d,%d,%f\n", a, b, x);
+
+e)
+  printf("%.2f\n", x);
+
+f)
+  scanf("%d", &a);
+
+g)
+  scanf("%d", &b);
+
+h)
+  scanf("%f", &y);
