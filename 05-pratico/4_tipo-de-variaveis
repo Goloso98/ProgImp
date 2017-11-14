@@ -1,0 +1,28 @@
+Tamanhos: 
+SHRT_MIN = -32768
+SHRT_MAX = 32767
+INT_MIN = -2147483648
+INT_MAX = 2147483647
+LONG_MIN = -9223372036854775808
+LONG_MAX = 9223372036854775807
+
+a)
+var1 = 365
+tipo short
+
+b)
+var2 = 31536000
+tipo int
+
+c)
+var3 = 86400
+tipo short
+
+d)
+var4 = 2592000
+tipo int 
+
+e) *ate 11/11/2017
+var5 = 3719347200
+tipo long
+
