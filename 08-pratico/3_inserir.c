@@ -18,4 +18,6 @@ int main(void)
   char str[] = { 'B', 'C' };
   char c = 'A';
   inserir(str, c);
+
+  return 0;
 }
